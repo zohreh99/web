@@ -88,6 +88,9 @@ section {
 	font-weight: 400
 	border-radius: 0.25rem;
 }
+.navbar{
+	padding-top: 3rem;
+}
 .home{
 	color: #ffffff;
 	background-color: #643a79;
@@ -135,7 +138,7 @@ section {
 
 }
 .sec2{
-	 margin: 0px;
+	margin: 0px;
   	height: 737px;
   	background-color: #17c2a4;
 }
@@ -152,7 +155,7 @@ section {
   padding-bottom: 18px;
   position: relative;
 }
-.parentsec1h1 ::after{
+.parentsec2h1 ::after{
   content: "";
   position:absolute;
   width: 87px;
@@ -172,11 +175,9 @@ section {
   font-weight: 300;
   text-align: center;
 }
-.navbar{
-	padding-top: 3rem;
-}
+
 .titlesec2{
-	font-size: 21px;
+	font-size: 19px;
 	letter-spacing: 0px;
 	line-height: 18px;
 	color: #ffffff;
@@ -185,16 +186,23 @@ section {
 	padding-top: 30px;
 }
 .title1sec2{
-	padding-left: 80px;
-}
-.title2sec2{
+	flex-basis: 400px;
 	padding-left: 100px;
 }
+.title2sec2{
+	flex-basis: 400px;
+	padding-left: 100px;
+
+}
 .title3sec2{
-	padding-left: 120px;
+	flex-basis: 400px;
+	padding-left: 90px;
+
 }
 .title4sec2{
-	padding-left: 50px;
+	flex-basis: 400px;
+	padding-left: 80px;
+
 }
 .undertitlesec2{
 	
@@ -205,18 +213,26 @@ section {
 	font-family: "Titillium";
 	font-weight: 300;
 	text-align: center;
-	/*padding-top: 20px;*/
+	padding-top: 20px;
 }
 .undertitle1sec2{
+	flex-basis: 600px;
+	padding-left: 50px
 
 }
 .undertitle2sec2{
-	
+	flex-basis: 600px;
+	padding-left: 50px;
 }
 .undertitle3sec2{
+	flex-basis: 600px;
+	padding-left: 80px;
+
 	
 }
 .undertitle4sec2{
+	flex-basis: 600px;
+	padding-left: 50px;
 	
 }
 /*.picsec2{
@@ -244,6 +260,193 @@ section {
     justify-content: center;
 }
 
+.sec3{
+	margin: 0px;
+  	height: 915px;
+  	background-color: #e7f1f8;
+}
+.sec3h1{
+
+    color: #3c4761;
+    font-size: 40px;
+    letter-spacing: 4px;
+    line-height: 30px;
+    font-family: "Titillium";
+    font-weight: 700;
+    text-align: center;
+    padding-top: 108px;
+    padding-bottom: 18px;
+    position: relative;
+}
+.parentsec3h1 ::after{
+    content: "";
+    position:absolute;
+    width: 87px;
+    height: 4px;
+    background-color: #bdd1df;
+    display: block;
+    left: 47%;
+    bottom: 0;
+
+}
+.sec3p{
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 26px;
+ 	color: #3c4761;
+    font-family: "Titillium";
+    font-weight: 400;
+    text-align: center;
+}
+.pic1sec3{
+	padding-left: 70px;
+	padding-top: 60px;
+}
+.flex-img1sec3{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.flex-titlesec3{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.titlesec3{
+	font-size: 19px;
+	letter-spacing: 0px;
+	line-height: 18px;
+	color: #27283d;
+	font-family: "Titillium";
+	font-weight: 700;
+	padding-top: 30px;
+}
+.title1sec3{
+	flex-basis: 400px;
+	padding-left: 100px;
+}
+.title2sec3{
+	flex-basis: 400px;
+	padding-left: 130px;
+
+
+}
+.title3sec3{
+	flex-basis: 400px;
+	padding-left: 120px;
+
+
+}
+.title4sec3{
+	flex-basis: 400px;
+	padding-left: 100px;
+
+
+}
+.flex-undertitle1sec3{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.undertitle1sec3{
+	
+	font-size: 16px;
+	letter-spacing: 0px;
+	line-height: 18px;
+	color: #30bae7;
+	font-family: "Titillium";
+	font-weight: 400;
+	text-align: center;
+	/*padding-top: 20px;*/
+
+}
+.undertitle11sec3{
+	flex-basis: 400px;
+	padding-left: 90px;
+
+
+}
+.undertitle12sec3{
+	flex-basis: 400px;
+	padding-left: 100px;
+
+	
+}
+.undertitle13sec3{
+	flex-basis: 400px;
+	padding-left: 100px;
+
+	
+}
+.undertitle14sec3{
+	flex-basis: 400px;
+	padding-left: 70px;
+
+	
+}
+.flex-undertitle2sec3{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.undertitle2sec3{
+	width: 204px;
+	height: 192px;
+	font-size: 16px;
+	letter-spacing: 0px;
+	line-height: 24px;
+	color: #3c4761;
+	font-family: "Titillium";
+	font-weight: 300;
+	text-align: center;
+}
+.undertitle21sec3{
+	flex-basis: 400px;
+	padding-left: 80px;
+
+}
+.undertitle22sec3{
+	flex-basis: 400px;
+	padding-left: 80px;
+
+
+}
+.undertitle23sec3{
+	flex-basis: 400px;
+	padding-left: 80px;
+
+
+}
+.undertitle24sec3{
+	flex-basis: 400px;
+	padding-left: 80px;
+
+}
+.flex-img2sec3{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -50px;
+}
+.pic21sec3{
+	flex-basis: 400px;
+	padding-left: 100px;
+}
+.pic22sec3{
+	flex-basis: 400px;
+	padding-left: 130px;
+
+}
+.pic23sec3{
+	flex-basis: 400px;
+	padding-left: 120px;
+
+}
+.pic24sec3{
+	flex-basis: 400px;
+	padding-left: 130px;
+
+}
 
 /*responsive*/
 @media only screen and (max-width: 500px) {
@@ -281,7 +484,6 @@ section {
 	}
 	.sec1{
 		width: 100%;
-
 		height: 300px;
 	}
 	.sec1h1{
@@ -308,7 +510,7 @@ section {
 	font-weight: 400;
 	}
 	.sec1-btn{
-    padding-left: 70px;
+    padding-left: 90px;
     padding-top: 30px;
 
 	}
@@ -316,34 +518,27 @@ section {
 	background-color: #87509c;
 		margin-top: -10px;
 	}
+	.sec2{
+	height: auto;
+	}
 	.sec2h1{
 	
-	font-size: 16px;
+	font-size: 12px;
 	line-height: 40px;
-	color: #f7f3ea;
 	font-family: "Titillium";
 	text-align: center;
 	padding-top: 2rem;
 	padding-left: 1rem;
 	}
 
-	.sec2p{
-   font-size: 16px;
-   line-height: 22px;
-   font-weight: 300;
-   padding-left: 20px;
-   text-align: center;
-    }
-
-	.parentsec1h1 ::after{
+	
+	.parentsec2h1 ::after{
 
     content: "";
     position:absolute;
-    width: 40px;
+    width: 30px;
     height: 4px;
-    background-color:#14a58b;
     display: block;
-    left: 49%;
     bottom: 5px;
 
    
@@ -352,37 +547,50 @@ section {
     font-size: 14px;
     line-height: 22px;
     font-weight: 300;
+    padding-left: 20px;
+    text-align: center;
     }
     .picsec2{
 	padding-left: 30px;
-}
-   /* .imgsec2{
-
-	
-	 max-width: 50px;
-	 height: 50px;
-	}*/
-	/*.picsec2{
-	width: 25%;
-	float: left;
 	}
-*/
+
     .img-responsive{
-	/*max-width: 100%;*/
 	height: auto;
 	display:inline-block;
-	/*width: 80px;*/
 
+	}
+	.flex-undertitlesec2{
+		margin-top: -5px;
 	}
 	
 	.titlesec2{
-	font-size: 8px;
+	font-size: 7px;
 	line-height: 18px;
 	font-weight: 100;
-	padding-top: 20px;
-	padding-left: 13px;
+	padding-top: 10px;
+	padding-left: 0px;
 	}
+	.title1sec2{
+	flex-basis: 200px;
+	padding-left: 30px;
+	}
+	.title2sec2{
+	flex-basis: 200px;
+	padding-left: 22px;
 
+	}
+	.title3sec2{
+	flex-basis: 200px;
+	padding-left: 15px;
+
+
+	}
+	.title4sec2{
+	flex-basis: 200px;
+	padding-left: 20px;
+
+
+	}
 	.undertitlesec2{
 	
 	font-size: 8px;
@@ -395,6 +603,146 @@ section {
 	padding-left: 5px;
 	}
 	.flex-imgsec2{
-		padding-left: 10px;
+	padding-left: 10px;
+	}
+
+	.sec3{
+	height: auto;
+	}
+	.sec3h1{
+	
+	font-size: 10px;
+	line-height: 40px;
+	font-family: "Titillium";
+	text-align: center;
+	padding-top: 2rem;
+	padding-left: 1rem;
+	}
+
+	
+	.parentsec3h1 ::after{
+
+    content: "";
+    position:absolute;
+    width: 30px;
+    height: 4px;
+    display: block;
+    bottom: 5px;
+
+   
+    }
+    .sec3p{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    padding-left: 20px;
+    text-align: center;
+    }
+
+    .pic1sec3{
+	padding-left: 30px;
+	}
+	.flex-img1sec3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -50px;
+	}
+
+	.titlesec3{
+	font-size: 8px;
+	line-height: 18px;
+	font-weight: 100;
+	padding-top: 20px;
+	}
+	.title1sec3{
+	flex-basis: 100px;
+	padding-left: 8px;
+	}
+	.title2sec3{
+	flex-basis: 100px;
+	padding-left: 30px;
+	}
+	.title3sec3{
+	flex-basis: 100px;
+	padding-left: 20px;
+	}
+	.title4sec3{
+	flex-basis: 100px;
+	padding-left: 10px;
+	}
+
+	.undertitle1sec3{
+	
+	font-size: 7px;
+	letter-spacing: 0px;
+	line-height: 18px;
+	color: #30bae7;
+	font-family: "Titillium";
+	font-weight: 400;
+	text-align: center;
+	margin-top: -10px;
+
+	}
+	.undertitle11sec3{
+	flex-basis: 200px;
+	padding-left: 8px;
+
+
+	}
+	.undertitle12sec3{
+	flex-basis: 200px;
+	padding-left: 8px;
+
+	
+	}
+	.undertitle13sec3{
+	flex-basis: 200px;
+	padding-left: 8px;
+
+	
+	}
+	.undertitle14sec3{
+	flex-basis: 200px;
+	padding-left: 8px;
+
+	
+	}
+	.undertitle2sec3{
+	
+	font-size: 7px;
+	letter-spacing: 0px;
+	line-height: 10px;
+	color: #3c4761;
+	font-family: "Titillium";
+	font-weight: 400;
+	text-align: center;
+	margin-top: -10px;
+
+	}
+	.undertitle21sec3{
+	flex-basis: 200px;
+	padding-left: 8px;
+
+
+	}
+	.undertitle22sec3{
+	flex-basis: 200px;
+	padding-left: 8px;
+
+	
+	}
+	.undertitle23sec3{
+	flex-basis: 200px;
+	padding-left: 8px;
+
+	
+	}
+	.undertitle24sec3{
+	flex-basis: 200px;
+	padding-left: 8px;
+
+	
 }
+
 }
