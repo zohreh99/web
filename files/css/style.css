@@ -30,7 +30,6 @@
 
 
 body{
-	/*background-color: pink;*/
 }
 header,
 footer, 
@@ -54,10 +53,7 @@ section {
 	max-width: 100%
 	height: auto;
 }
-/*.navbar-toggler {
-     align-self: flex-end; 
-}
-*/
+
 .logo{
 	width: 118px;
 	height: 37px;
@@ -67,16 +63,12 @@ section {
 .navbar-toggler-icon {
     display: inline-block;
     width: .75em;
-    /*height: .75em;*/
     vertical-align: middle;
     content: "";
     background: no-repeat center center;
     background-size: 100% 100%;
 
 }
-/*.navbar-toggler{
-	padding: 0px 0px !important; 
-}*/
 
 .navbar-light .navbar-nav .nav-link{
 	margin: 0px;
@@ -113,6 +105,7 @@ section {
 	font-weight: 600;
 	text-align: center;
 	padding-top: 5rem;
+	padding-left: 30px;
 
 }
 .btn{
@@ -128,7 +121,7 @@ section {
 	font-weight: 600;
 }
 .sec1-btn{
-    padding-left: 370px;
+    padding-left: 408px;
     padding-top: 51px;
 }
 .sec1{
@@ -154,6 +147,8 @@ section {
   padding-top: 108px;
   padding-bottom: 18px;
   position: relative;
+  padding-left: 34px;
+
 }
 .parentsec2h1 ::after{
   content: "";
@@ -172,8 +167,8 @@ section {
   line-height: 24px;
   color: #ffffff;
   font-family: "Titillium";
-  font-weight: 300;
   text-align: center;
+  padding-left: 30px;
 }
 
 .titlesec2{
@@ -196,12 +191,12 @@ section {
 }
 .title3sec2{
 	flex-basis: 400px;
-	padding-left: 90px;
+	padding-left: 100px;
 
 }
 .title4sec2{
 	flex-basis: 400px;
-	padding-left: 80px;
+	padding-left: 100px;
 
 }
 .undertitlesec2{
@@ -211,13 +206,13 @@ section {
 	line-height: 24px;
 	color: #ffffff;
 	font-family: "Titillium";
-	font-weight: 300;
 	text-align: center;
 	padding-top: 20px;
+	
 }
 .undertitle1sec2{
 	flex-basis: 600px;
-	padding-left: 50px
+	padding-left: 20px
 
 }
 .undertitle2sec2{
@@ -226,7 +221,7 @@ section {
 }
 .undertitle3sec2{
 	flex-basis: 600px;
-	padding-left: 80px;
+	padding-left: 70px;
 
 	
 }
@@ -246,18 +241,23 @@ section {
 	display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-right: 60px;
 }
 
 .flex-titlesec2{
 	display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-right: 50px;
 }
 
 .flex-undertitlesec2{
 	display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-right: 50px;
+
+
 }
 
 .sec3{
@@ -277,6 +277,7 @@ section {
     padding-top: 108px;
     padding-bottom: 18px;
     position: relative;
+    padding-left: 33px;
 }
 .parentsec3h1 ::after{
     content: "";
@@ -297,20 +298,26 @@ section {
     font-family: "Titillium";
     font-weight: 400;
     text-align: center;
+    padding-left: 30px;
+
 }
 .pic1sec3{
-	padding-left: 70px;
+	padding-left: 60px;
 	padding-top: 60px;
 }
 .flex-img1sec3{
 	display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-right: 60px;
 }
+
 .flex-titlesec3{
 	display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-left: 27px;
+
 }
 .titlesec3{
 	font-size: 19px;
@@ -323,23 +330,25 @@ section {
 }
 .title1sec3{
 	flex-basis: 400px;
-	padding-left: 100px;
+	padding-left: 70px;
 }
 .title2sec3{
 	flex-basis: 400px;
-	padding-left: 130px;
+	padding-left: 80px;
 
 
 }
 .title3sec3{
 	flex-basis: 400px;
-	padding-left: 120px;
+	padding-left: 60px;
+
 
 
 }
 .title4sec3{
 	flex-basis: 400px;
-	padding-left: 100px;
+	padding-left: 30px;
+
 
 
 }
@@ -347,6 +356,7 @@ section {
 	display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-right: 11px;
 }
 .undertitle1sec3{
 	
@@ -362,25 +372,31 @@ section {
 }
 .undertitle11sec3{
 	flex-basis: 400px;
-	padding-left: 90px;
+	padding-left: 60px;
+	/*padding-left: 50px;*/
 
 
 }
 .undertitle12sec3{
 	flex-basis: 400px;
-	padding-left: 100px;
+	padding-left: 30px;
+	/*padding-left: 50px;*/
+
 
 	
 }
 .undertitle13sec3{
 	flex-basis: 400px;
-	padding-left: 100px;
+	/*padding-left: 50px;*/
+
+	/*padding-left: 20px;*/
 
 	
 }
 .undertitle14sec3{
 	flex-basis: 400px;
-	padding-left: 70px;
+	padding-right: 20px;
+
 
 	
 }
@@ -388,10 +404,10 @@ section {
 	display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-right: 25px;
 }
 .undertitle2sec3{
-	width: 204px;
-	height: 192px;
+	
 	font-size: 16px;
 	letter-spacing: 0px;
 	line-height: 24px;
@@ -402,51 +418,155 @@ section {
 }
 .undertitle21sec3{
 	flex-basis: 400px;
-	padding-left: 80px;
+	padding-left: 40px;
 
 }
 .undertitle22sec3{
 	flex-basis: 400px;
-	padding-left: 80px;
+	padding-left: 40px;
 
 
 }
 .undertitle23sec3{
 	flex-basis: 400px;
-	padding-left: 80px;
+	padding-left: 40px;
 
 
 }
 .undertitle24sec3{
 	flex-basis: 400px;
-	padding-left: 80px;
+	padding-left: 20px;
 
 }
 .flex-img2sec3{
 	display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: -50px;
+    padding-left: 23px;
 }
 .pic21sec3{
-	flex-basis: 400px;
-	padding-left: 100px;
+	flex-basis: 500px;
+	padding-left: 60px;
+
+
 }
 .pic22sec3{
-	flex-basis: 400px;
-	padding-left: 130px;
+	flex-basis: 500px;
+	padding-left: 90px;
 
 }
 .pic23sec3{
-	flex-basis: 400px;
-	padding-left: 120px;
+	flex-basis: 500px;
+	padding-left: 70px;
 
 }
 .pic24sec3{
-	flex-basis: 400px;
-	padding-left: 130px;
+	flex-basis: 500px;
+	padding-left: 80px;
 
 }
+
+
+
+
+
+
+
+
+.sec4{
+    margin: 0px;
+  	height: 655px;
+	background-color: #ffffff;
+}
+.sec4h1{
+
+  color: #3c4761;
+  font-size: 40px;
+  letter-spacing: 4px;
+  line-height: 30px;
+  font-family: "Titillium";
+  font-weight: 700;
+  text-align: center;
+  padding-top: 108px;
+  padding-bottom: 18px;
+  position: relative;
+  padding-left: 34px;
+
+}
+.parentsec4h1 ::after{
+  content: "";
+  position:absolute;
+  width: 87px;
+  height: 4px;
+  background-color:#dfe8ed;
+  display: block;
+  left: 47%;
+  bottom: 0;
+
+}
+.sec4p{
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #3c4761;
+  font-family: "Titillium";
+  text-align: center;
+  padding-left: 30px;
+}
+
+.titlesec4{
+	font-size: 19px;
+	letter-spacing: 0px;
+	line-height: 18px;
+	color: #3c4761;
+	font-family: "Titillium";
+	font-weight: 700;
+	padding-top: 30px;
+}
+.title1sec4{
+	flex-basis: 400px;
+	padding-left: 150px;
+}
+.title2sec4{
+	flex-basis: 400px;
+	padding-left: 100px;
+
+}
+.title3sec4{
+	flex-basis: 400px;
+	padding-left: 40px;
+
+}
+.title4sec4{
+	flex-basis: 400px;
+	padding-left: 65px;
+
+}
+
+/*.picsec2{
+	width: 25%;
+	float: left;
+}*/
+.picsec4{
+	padding-left: 70px;
+}
+.flex-imgsec4{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 70px;
+    padding-top: 40px;
+}
+
+.flex-titlesec4{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 50px;
+}
+
+
+
 
 /*responsive*/
 @media only screen and (max-width: 500px) {
@@ -456,7 +576,7 @@ section {
 	margin: -4px;
     }
     .navbar-expand-sm .navbar-expand-xs .container{
-    	margin: -1px;
+    margin: -1px;
     }
 	.mylogo{
 	width: 60px;
@@ -483,26 +603,25 @@ section {
 
 	}
 	.sec1{
-		width: 100%;
-		height: 300px;
+	width: 100%;
+	height: 200px;
 	}
 	.sec1h1{
 	
-	font-size: 16px;
-	line-height: 40px;
+	font-size: 13px;
+	line-height: 20px;
 	color: #f7f3ea;
 	font-family: "Titillium";
 	text-align: center;
 	padding-top: 2rem;
-	padding-left: 1rem;
 
 	}
 	.btn{
-	width: 120px;
+	width: 100px;
 	height: 45px;
 	border-radius: 4px;
 	background-color: #eb7d4b;
-	font-size: 10px;
+	font-size: 8px;
 	letter-spacing: 0px;
 	line-height: 26px;
 	color: #ffffff;
@@ -510,113 +629,109 @@ section {
 	font-weight: 400;
 	}
 	.sec1-btn{
-    padding-left: 90px;
+    padding-left: 120px;
     padding-top: 30px;
-
-	}
-	.btnsec1{
-	background-color: #87509c;
-		margin-top: -10px;
 	}
 	.sec2{
+	width: 100%;
 	height: auto;
 	}
 	.sec2h1{
 	
-	font-size: 12px;
+	font-size: 13px;
 	line-height: 40px;
+    letter-spacing: 2px;
 	font-family: "Titillium";
 	text-align: center;
-	padding-top: 2rem;
-	padding-left: 1rem;
+	padding-top: 20px;
 	}
 
-	
 	.parentsec2h1 ::after{
 
     content: "";
     position:absolute;
     width: 30px;
-    height: 4px;
+    height: 2px;
     display: block;
-    bottom: 5px;
+    bottom: 18px;
+    left: 50%;
+
 
    
     }
     .sec2p{
-    font-size: 14px;
-    line-height: 22px;
-    font-weight: 300;
-    padding-left: 20px;
+    font-size: 8.6px;
+    line-height: 15px;
+    font-weight: 100;
+    margin-top: -40px;
     text-align: center;
+    padding-top: 20px;
     }
     .picsec2{
+	padding-left: 10px;
+	}
+	.flex-imgsec2{
 	padding-left: 30px;
 	}
-
     .img-responsive{
 	height: auto;
 	display:inline-block;
 
 	}
-	.flex-undertitlesec2{
-		margin-top: -5px;
+	.flex-titlesec2{
+	padding-left: 50px;
 	}
-	
 	.titlesec2{
-	font-size: 7px;
+	font-size: 6px;
 	line-height: 18px;
-	font-weight: 100;
+	font-weight: 300;
 	padding-top: 10px;
-	padding-left: 0px;
 	}
 	.title1sec2{
 	flex-basis: 200px;
-	padding-left: 30px;
+	padding-left: 10px;
 	}
 	.title2sec2{
 	flex-basis: 200px;
-	padding-left: 22px;
+	padding-left: 10px;
 
 	}
 	.title3sec2{
 	flex-basis: 200px;
-	padding-left: 15px;
-
+	padding-left: 0px;
 
 	}
 	.title4sec2{
 	flex-basis: 200px;
-	padding-left: 20px;
-
-
+	padding-left: 10px;
+	}
+	.flex-undertitlesec2{
+	margin-top: -5px;
+	padding-left: 50px;
+   
 	}
 	.undertitlesec2{
 	
-	font-size: 8px;
+	font-size: 5px;
 	letter-spacing: 0px;
 	line-height: 10px;
 	color: #ffffff;
 	font-weight: 100;
 	text-align: center;
 	padding-top: 0px;
-	padding-left: 5px;
+	padding-left: 0px;
 	}
-	.flex-imgsec2{
-	padding-left: 10px;
-	}
-
 	.sec3{
-	height: auto;
+	height: 280px;
 	}
 	.sec3h1{
 	
-	font-size: 10px;
-	line-height: 40px;
-	font-family: "Titillium";
 	text-align: center;
-	padding-top: 2rem;
-	padding-left: 1rem;
+	font-size: 13px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    font-family: "Titillium";
+    padding-top: 20px
 	}
 
 	
@@ -625,124 +740,262 @@ section {
     content: "";
     position:absolute;
     width: 30px;
-    height: 4px;
     display: block;
-    bottom: 5px;
-
-   
+    height: 2px;
+    display: block;
+    bottom: 18px;
+    left: 50%;
     }
     .sec3p{
-    font-size: 14px;
-    line-height: 22px;
-    font-weight: 300;
-    padding-left: 20px;
     text-align: center;
+    font-size: 8.6px;
+    line-height: 15px;
+    font-weight: 100;
+    margin-top: -40px;
+    padding-top: 20px;
     }
+	
+    .img-responsive{
+	height: auto;
+	display:inline-block;
+	box-sizing: content-box !important;
+	}
 
-    .pic1sec3{
+
+	.img1sec3{
 	padding-left: 30px;
+	box-sizing: content-box !important;
+
 	}
-	.flex-img1sec3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: -50px;
+	.img11sec3{
+	box-sizing: content-box !important;
+
+
+	}
+	.pic1sec3{
+	padding-left: 20px;
+	box-sizing: content-box !important;
+	}
+	.flex-img1sec3{
+
+	margin-top: -60px;
+	padding-left: 0px;
+	margin-right: 20px;
+	box-sizing: content-box !important;
 	}
 
+   
+	.flex-titlesec3{
+	padding-left: 0px;
+	}
 	.titlesec3{
-	font-size: 8px;
-	line-height: 18px;
-	font-weight: 100;
-	padding-top: 20px;
+	font-size: 6px;
+    line-height: 18px;
+    font-weight: 300;
+    padding-top: 10px;
 	}
 	.title1sec3{
-	flex-basis: 100px;
-	padding-left: 8px;
+	flex-basis: 200px;
+    padding-left: 50px;
 	}
 	.title2sec3{
-	flex-basis: 100px;
-	padding-left: 30px;
+	flex-basis: 200px;
+    padding-left: 25px;
+
 	}
 	.title3sec3{
-	flex-basis: 100px;
-	padding-left: 20px;
+	flex-basis: 200px;
+    padding-left: 10px;
+
 	}
 	.title4sec3{
-	flex-basis: 100px;
-	padding-left: 10px;
+	flex-basis: 200px;
+    padding-right: 33px;
+    padding-left: 0px;
+	}
+
+	.flex-undertitlesec3{
+	margin-top: -5px;
+	padding-left: 50px;
+   
 	}
 
 	.undertitle1sec3{
-	
-	font-size: 7px;
+	font-size: 5px;
 	letter-spacing: 0px;
-	line-height: 18px;
-	color: #30bae7;
-	font-family: "Titillium";
-	font-weight: 400;
+	line-height: 10px;
+	font-weight: 100;
 	text-align: center;
-	margin-top: -10px;
-
+	padding-top: 0px;
+	padding-left: 0px;
+	margin-top: -15px;
 	}
 	.undertitle11sec3{
-	flex-basis: 200px;
-	padding-left: 8px;
-
+	flex-basis: 300px;
+    padding-left: 30px;
+    padding-right: 0px;
 
 	}
 	.undertitle12sec3{
 	flex-basis: 200px;
-	padding-left: 8px;
-
-	
+    padding-left: 0px;
+    padding-right: 8px;
 	}
 	.undertitle13sec3{
 	flex-basis: 200px;
-	padding-left: 8px;
-
-	
+    padding-right: 12px;
 	}
 	.undertitle14sec3{
 	flex-basis: 200px;
-	padding-left: 8px;
+    padding-right: 30px;
+	}
 
-	
+	.flex-undertitle2sec3{
+	padding-right: 0px
 	}
 	.undertitle2sec3{
 	
-	font-size: 7px;
+	font-size: 5px;
 	letter-spacing: 0px;
-	line-height: 10px;
+	line-height: 8px;
 	color: #3c4761;
 	font-family: "Titillium";
 	font-weight: 400;
 	text-align: center;
 	margin-top: -10px;
+	padding-left: 0px;
 
 	}
 	.undertitle21sec3{
-	flex-basis: 200px;
-	padding-left: 8px;
+	padding-left: 40px;
 
 
 	}
 	.undertitle22sec3{
-	flex-basis: 200px;
 	padding-left: 8px;
 
 	
 	}
 	.undertitle23sec3{
-	flex-basis: 200px;
 	padding-left: 8px;
 
 	
 	}
 	.undertitle24sec3{
-	flex-basis: 200px;
-	padding-left: 8px;
+	padding-left: 0px;
+    padding-right: 30px;
 
 	
-}
+	}
+	.flex-img2sec3{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 45px;
+    margin-top: -30px;
+	}
+
+	.pic21sec3{
+	flex-basis: 100px;
+	padding-left: 0px;
+
+
+	}
+	.pic22sec3{
+	flex-basis: 100px;
+	padding-left: 8px;
+
+	}
+	.pic23sec3{
+	flex-basis: 100px;
+	padding-left: 0px;
+	padding-right: 5px;
+
+	}
+	.pic24sec3{
+	flex-basis: 100px;
+	padding-left: 0px;
+	padding-right: 30px;
+
+	}
+	.img2sec3{
+	width: 10px;
+	}
+
+	.sec4{
+	width: 100%;
+	height: auto;
+	}
+	.sec4h1{
+	
+	font-size: 13px;
+	line-height: 40px;
+    letter-spacing: 2px;
+	font-family: "Titillium";
+	text-align: center;
+	padding-top: 20px;
+	}
+
+	.parentsec4h1 ::after{
+
+    content: "";
+    position:absolute;
+    width: 30px;
+    height: 2px;
+    display: block;
+    bottom: 18px;
+    left: 50%;
+
+
+   
+    }
+    .sec4p{
+    font-size: 8.6px;
+    line-height: 15px;
+    font-weight: 100;
+    margin-top: -40px;
+    text-align: center;
+    padding-top: 20px;
+    }
+    .picsec4{
+	padding-left: 10px;
+	}
+	.flex-imgsec4{
+	padding-left: 60px;
+	margin-top: -40px;
+	}
+    .img-responsive{
+	height: auto;
+	display:inline-block;
+
+	}
+	.flex-titlesec4{
+	padding-left: 50px;
+	}
+	.titlesec4{
+	font-size: 6px;
+	line-height: 18px;
+	font-weight: 300;
+	padding-top: 10px;
+	}
+	.title1sec4{
+	flex-basis: 200px;
+	padding-left: 22px;
+	}
+	.title2sec4{
+	flex-basis: 200px;
+	padding-left: 15px;
+
+	}
+	.title3sec4{
+	flex-basis: 300px;
+	padding-left: 5px;
+
+	}
+	.title4sec4{
+	flex-basis: 200px;
+	padding-left: 0px;
+	padding-right: 5px;
+	}
 
 }
