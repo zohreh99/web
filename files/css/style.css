@@ -181,21 +181,17 @@ section {
 	padding-top: 30px;
 }
 .title1sec2{
-	flex-basis: 400px;
 	padding-left: 100px;
 }
 .title2sec2{
-	flex-basis: 400px;
 	padding-left: 100px;
 
 }
 .title3sec2{
-	flex-basis: 400px;
 	padding-left: 100px;
 
 }
 .title4sec2{
-	flex-basis: 400px;
 	padding-left: 100px;
 
 }
@@ -211,22 +207,18 @@ section {
 	
 }
 .undertitle1sec2{
-	flex-basis: 600px;
 	padding-left: 20px
 
 }
 .undertitle2sec2{
-	flex-basis: 600px;
 	padding-left: 50px;
 }
 .undertitle3sec2{
-	flex-basis: 600px;
 	padding-left: 70px;
 
 	
 }
 .undertitle4sec2{
-	flex-basis: 600px;
 	padding-left: 50px;
 	
 }
@@ -237,28 +229,7 @@ section {
 .picsec2{
 	padding-left: 70px;
 }
-.flex-imgsec2{
-	display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-right: 60px;
-}
 
-.flex-titlesec2{
-	display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-right: 50px;
-}
-
-.flex-undertitlesec2{
-	display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-right: 50px;
-
-
-}
 
 .sec3{
 	margin: 0px;
@@ -305,20 +276,7 @@ section {
 	padding-left: 60px;
 	padding-top: 60px;
 }
-.flex-img1sec3{
-	display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-right: 60px;
-}
 
-.flex-titlesec3{
-	display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-left: 27px;
-
-}
 .titlesec3{
 	font-size: 19px;
 	letter-spacing: 0px;
@@ -329,35 +287,26 @@ section {
 	padding-top: 30px;
 }
 .title1sec3{
-	flex-basis: 400px;
 	padding-left: 70px;
 }
 .title2sec3{
-	flex-basis: 400px;
 	padding-left: 80px;
 
 
 }
 .title3sec3{
-	flex-basis: 400px;
 	padding-left: 60px;
 
 
 
 }
 .title4sec3{
-	flex-basis: 400px;
 	padding-left: 30px;
 
 
 
 }
-.flex-undertitle1sec3{
-	display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-right: 11px;
-}
+
 .undertitle1sec3{
 	
 	font-size: 16px;
@@ -371,14 +320,12 @@ section {
 
 }
 .undertitle11sec3{
-	flex-basis: 400px;
 	padding-left: 60px;
 	/*padding-left: 50px;*/
 
 
 }
 .undertitle12sec3{
-	flex-basis: 400px;
 	padding-left: 30px;
 	/*padding-left: 50px;*/
 
@@ -386,7 +333,6 @@ section {
 	
 }
 .undertitle13sec3{
-	flex-basis: 400px;
 	/*padding-left: 50px;*/
 
 	/*padding-left: 20px;*/
@@ -400,12 +346,7 @@ section {
 
 	
 }
-.flex-undertitle2sec3{
-	display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-right: 25px;
-}
+
 .undertitle2sec3{
 	
 	font-size: 16px;
@@ -550,20 +491,7 @@ section {
 .picsec4{
 	padding-left: 70px;
 }
-.flex-imgsec4{
-	display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-right: 70px;
-    padding-top: 40px;
-}
 
-.flex-titlesec4{
-	display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-right: 50px;
-}
 
 
 
@@ -613,17 +541,13 @@ section {
 
 	.sec1{
 	width: 100%;
-	height: 200px;
+	height: 400px;
 	}
 	.sec1h1{
-	
-	font-size: 13px;
-	line-height: 20px;
-	color: #f7f3ea;
-	font-family: "Titillium";
-	text-align: center;
 	padding-top: 2rem;
-
+  	font-size: 28px;
+	line-height: 38px;
+	font-weight: 600;
 	}
 	.btn{
 	width: 100px;
@@ -645,91 +569,64 @@ section {
 	width: 100%;
 	height: auto;
 	}
-	.sec2h1{
 	
-	font-size: 13px;
-	line-height: 40px;
-    letter-spacing: 2px;
-	font-family: "Titillium";
-	text-align: center;
-	padding-top: 20px;
-	}
-
 	.parentsec2h1 ::after{
 
-    content: "";
-    position:absolute;
-    width: 30px;
-    height: 2px;
-    display: block;
-    bottom: 18px;
-    left: 50%;
-
-
    
+    width: 50px;
+    height: 3px;
+    display: block;
+    bottom: 10px;
+    left: 47%;   
     }
-    .sec2p{
-    font-size: 8.6px;
-    line-height: 15px;
-    font-weight: 100;
-    margin-top: -40px;
-    text-align: center;
-    padding-top: 20px;
-    }
-    .picsec2{
-	padding-left: 10px;
+
+    .sec2h1{
+
+  	font-size: 28px;
+	letter-spacing: 3px;
+	line-height: 38px;
+	font-weight: 600;
+	padding-top: 60px;
+
 	}
-	.flex-imgsec2{
-	padding-left: 30px;
-	}
+ 
     .img-responsive{
 	height: auto;
 	display:inline-block;
 
 	}
-	.flex-titlesec2{
-	padding-left: 50px;
+	.img1sec2{
+	padding-left: 72px;
+
+	}
+	.img2sec2{
+	padding-left: 77px;
+	}
+	.img3sec2{
+	padding-left: 85px;
+	}
+	.img4sec2{
+	padding-left: 75px;
 	}
 	.titlesec2{
-	font-size: 6px;
-	line-height: 18px;
-	font-weight: 300;
-	padding-top: 10px;
+	margin-top: -20px;
 	}
 	.title1sec2{
-	flex-basis: 200px;
-	padding-left: 10px;
+	 padding-left: 130px;
 	}
 	.title2sec2{
-	flex-basis: 200px;
-	padding-left: 10px;
-
+	padding-left: 143px;
 	}
 	.title3sec2{
-	flex-basis: 200px;
-	padding-left: 0px;
-
+	padding-left: 111px;
 	}
 	.title4sec2{
-	flex-basis: 200px;
-	padding-left: 10px;
-	}
-	.flex-undertitlesec2{
-	margin-top: -5px;
-	padding-left: 50px;
-   
+	padding-left: 105px;
 	}
 	.undertitlesec2{
-	
-	font-size: 5px;
-	letter-spacing: 0px;
-	line-height: 10px;
-	color: #ffffff;
-	font-weight: 100;
-	text-align: center;
-	padding-top: 0px;
-	padding-left: 0px;
+	padding-left: 30px;
 	}
+	
 	.sec3{
 	height: 280px;
 	}
