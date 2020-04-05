@@ -30,7 +30,7 @@
 
 
 body{
-	margin-top: 100px;
+	margin-top: 92px;
 }
 header,
 footer, 
@@ -58,7 +58,7 @@ section {
 
 }
 .container{
-	max-width: 100%
+	max-width: 100%;
 	height: auto;
 }
 
@@ -127,10 +127,12 @@ section {
 	color: #ffffff;
 	font-family: "Titillium";
 	font-weight: 600;
+
 }
 .sec1-btn{
-    padding-left: 408px;
     padding-top: 51px;
+    padding-left: 528px;
+
 }
 .sec1{
 	background-color: #87509c;
@@ -139,6 +141,7 @@ section {
 
 }
 .sec2{
+	width: 100%;
 	margin: 0px;
   	height: 737px;
   	background-color: #17c2a4;
@@ -178,9 +181,7 @@ section {
   text-align: center;
   padding-left: 30px;
 }
-.imgsec2{
-	padding-top: 50px;
-}
+
 .titlesec2{
 	font-size: 24px;
 	letter-spacing: 0px;
@@ -189,12 +190,12 @@ section {
 	font-family: "Titillium";
 	font-weight: 700;
 	padding-top: 30px;
-	padding-left: 80px;
+	padding-left: 60px;
 
 }
-.imgsec2{
+.imgrowsec2{
 	padding-top: 50px;
-	padding-left: 45px;
+	padding-left: 80px;
 }
 .title3sec2{
 	padding-left: 50px;
@@ -203,7 +204,9 @@ section {
 	padding-left: 40px;
 
 }
-
+.title3sec2{
+	padding-right: 100px;
+}
 
 .undertitlesec2{
 	
@@ -214,11 +217,16 @@ section {
 	font-family: "Titillium";
 	text-align: center;
 	padding-top: 20px;
-	padding-left: 20px;
 	
 }
-
+.undertitle1sec2{
+	padding-right: 20px;
+}
+.undertitle2sec2{
+	padding-right: 40px;
+}
 .sec3{
+	width: 100%;
 	margin: 0px;
   	height: 915px;
   	background-color: #e7f1f8;
@@ -259,10 +267,21 @@ section {
     padding-left: 30px;
 
 }
-.img1sec3{
-	padding-left: 40px;
-	padding-top: 50px;
+.rowsec3{
+	padding-top: 100px
 }
+
+.img11sec3 {
+	padding-left: 65px;
+}
+
+.undertitle11sec3{
+	padding-left: 45px;
+}
+.link1sec3 , .link2sec3 , .link3sec3 , .link4sec3{
+	padding-left: 110px;
+}
+
 .titlesec3{
 	font-size: 24px;
 	letter-spacing: 0px;
@@ -271,13 +290,9 @@ section {
 	font-family: "Titillium";
 	font-weight: 700;
 	padding-top: 30px;
-	padding-left: 52px;
+	padding-left: 85px;
 
 }
-.title2sec3 , .title3sec3 {
-	padding-left: 65px;
-}
-
 
 .undertitle1sec3{
 	
@@ -288,12 +303,7 @@ section {
 	font-family: "Titillium";
 	font-weight: 400;
 	text-align: center;
-	padding-left: 40px;
-}
-
-.undertitle12sec3{
-	padding-left: 30px;
-
+	padding-left: 20px;
 }
 
 .undertitle2sec3{
@@ -305,66 +315,51 @@ section {
 	font-family: "Titillium";
 	font-weight: 300;
 	text-align: center;
-	padding-left: 40px;
-}
-.link1picsec3{
 	padding-left: 60px;
+	
 }
-.link2picsec3{
-	padding-left: 75px;
 
-}
-.link3picsec3{
-	padding-left: 70px;
-
-}
-.link4picsec3{
-	padding-left: 80px;
-
-}
-.link1pic21sec3{
-	padding-left: 5px;
-}
 .sec4{
+	width: 100%;
     margin: 0px;
   	height: 655px;
 	background-color: #ffffff;	
 }
 .sec4h1{
 
-  color: #3c4761;
-  font-size: 40px;
-  letter-spacing: 4px;
-  line-height: 30px;
-  font-family: "Titillium";
-  font-weight: 700;
-  text-align: center;
-  padding-top: 108px;
-  padding-bottom: 18px;
-  position: relative;
-  padding-left: 34px;
+  	color: #3c4761;
+  	font-size: 40px;
+  	letter-spacing: 4px;
+  	line-height: 30px;
+  	font-family: "Titillium";
+  	font-weight: 700;
+ 	text-align: center;
+ 	padding-top: 108px;
+  	padding-bottom: 18px;
+  	position: relative;
+  	padding-left: 34px;
 
 
 }
 .parentsec4h1 ::after{
-  content: "";
-  position:absolute;
-  width: 87px;
-  height: 4px;
-  background-color:#dfe8ed;
-  display: block;
-  left: 47%;
-  bottom: 0;
+ 	content: "";
+ 	position:absolute;
+ 	width: 87px;
+  	height: 4px;
+ 	background-color:#dfe8ed;
+ 	display: block;
+  	left: 47%;
+  	bottom: 0;
 
 }
 .sec4p{
-  font-size: 16px;
-  letter-spacing: 0px;
-  line-height: 24px;
-  color: #3c4761;
-  font-family: "Titillium";
-  text-align: center;
-  padding-left: 30px;
+  	font-size: 16px;
+  	letter-spacing: 0px;
+  	line-height: 24px;
+  	color: #3c4761;
+  	font-family: "Titillium";
+  	text-align: center;
+  	padding-left: 30px;
 }
 
 .titlesec4{
@@ -375,27 +370,24 @@ section {
 	font-family: "Titillium";
 	font-weight: 700;
 	padding-top: 30px;
-	padding-left: 70px;
+	padding-left: 20px;
 
 
 }
-
-.imgsec4{
+.rowimgsec4{
+	padding-left: 135px;
 	padding-top: 50px;
-	padding-left: 58px;
 }
-.title2sec4{
-	padding-left: 80px;
-
+.rowtitlesec4{
+	padding-left: 85px;
 }
 .title3sec4{
-	padding-left: 60px;
-
+	margin-left: -20px
 }
 .title4sec4{
-	padding-left: 110px;
-
+	padding-left: 50px;
 }
+
 .sec5{
 	width: 100%;
 	height: 1423px;
@@ -449,19 +441,19 @@ section {
 	font-weight: 400;
 
 }
+
 .btn-all{
 	background-color: #ffffff;
-	margin-left: 355px;
 }
-.btn-web{
-	margin-left: 180px;
+.rowbtn1sec5{
+	padding-left: 475px;
 }
-.btn-icons{
-	margin-left: -180px;
+.rowimgsec5{
+	margin-top: 50px;
+	padding-left: 70px;
 }
-.imgsec5{
-	margin-left: 12px;
-	margin-top: 40px;
+.rowtitesec5{
+	padding-left: 50px;
 }
 .titlesec5{
 	font-size: 18px;
@@ -487,11 +479,11 @@ section {
 	font-weight: 600;
 }
 .sec5-btn{
-    padding-left: 408px;
+    padding-left: 528px;
     padding-top: 51px;
 }
 .sec6{
-	width: 1440px;
+	width: 100%;
 	height: 988px;
 	background-color: #d74680;
 }
@@ -530,17 +522,14 @@ section {
 	padding-left: 15px;
 }
 .img1sec6 , .img3sec6{
-	padding-left: 165px;
+	padding-left: 100px;
 }
-.img2sec6 , .img4sec6{
-	padding-left: 38px;
-}
-.row1{
+
+.row1sec6{
 	margin-top: 95px;
 }
 .titlesec6{
-	width: 297px;
-	height: 192px;
+	
 	font-size: 21px;
 	letter-spacing: 0px;
 	line-height: 31px;
@@ -566,24 +555,172 @@ section {
 	font-weight: 400;
 
 }
-.title1sec6 , .title3sec6{
-    margin-left: -50px;
+
+.sec7{
+	width: 100%;
+	height: 819px;
+	background-color: #3c5499;
 }
-.title2sec6 , .title4sec6{
-    margin-left: -183px;
+.sec7h1{
+	font-size: 40px;
+	letter-spacing: 4px;
+	line-height: 30px;
+	color: #ffffff;
+	font-family: "Titillium";
+	font-weight: 700;
+	text-align: center;
+	position: relative;
+    padding-top: 108px;
+    padding-left: 35px;
+    padding-bottom: 18px;
+}
+.parentsec7h1 ::after{
+	content: "";
+	position: absolute;
+	display: block;
+	width: 87px;
+	height: 4px;
+	background-color: #273a71;
+	left: 47%;
+    bottom: 0;
+}
+.sec7p{
+	font-size: 18px;
+	letter-spacing: 0px;
+	line-height: 26px;
+	color: #ffffff;
+	font-family: "Titillium";
+	font-weight: 400;
+	text-align: center;
+}
+
+#youremail ,#yourname{
+  width: 414px;
+  height: 56px;
+  border-radius: 4px;
+  border: none;
+  background-color:#273a71;
+  position: relative;
+ 
+}
+#youremail{
+	margin-left: 14px;
+
+}
+#yourname{
+    margin-left: 245px;
+
+}
+ .starname::after{
+	content: "*";
+	position: absolute;
+	color: red;
+	margin-left: 349px;
+	margin-top: -42px;
+}
+ .staremail::after{
+	content: "*";
+	position: absolute;
+	color: red;
+	margin-top: -42px;
+	margin-left: 115px;
+}
+#yourmessage{
+	width: 860px;
+	height: 200px;
+    background-color: #273a71;
+	border-radius: 4px;
+	border: none;
+	margin-top: 50px;
+	margin-left: 245px;
+	position: relative;
+
+
+}
+.starmassage::after{
+	content: "*";
+	position: absolute;
+	color: red;
+	margin-left: 372px;
+    margin-top: -200px;
+
+
 }
 .row3{
-	margin-top: 15px;
+	margin-top: 80px;
 }
-.undertitle11sec6 , .undertitle31sec6{
-	padding-left: 308px;
+
+.form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: "Titillium";
+    font-weight: 400;
 }
-.undertitle12sec6 , .undertitle32sec6{
-	padding-left: 310px;
+.form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: "Titillium";
+    font-weight: 400;
 }
-.row2{
-	margin-top: -20px;
+.form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: "Titillium";
+    font-weight: 400;
 }
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+
+    color:  red;
+	font-size: 18px;
+    line-height: 18px;
+    font-family: "Titillium";
+    font-weight: 400;
+}
+.form-control{
+	background-color: #273a71;
+}
+.sec7btn{
+	width: 293px;
+	height: 70px;
+	border-radius: 4px;
+	background-color: #30bae7;
+	font-size: 18px;
+	letter-spacing: 0px;
+	line-height: 26px;
+	color: #ffffff;
+	font-family: "Titillium";
+	font-weight: 600;
+	margin-left: 527px;
+	margin-top: 50px;
+}
+.footer{
+	width: 100%;
+	height: 112px;
+	background-color: #344b8e;
+}
+.btnfooter{
+	font-size: 24px;
+	letter-spacing: 0px;
+	line-height: 30px;
+	color: #ffffff;
+	font-family: "Titillium";
+	font-weight: 600;
+	text-align: center;
+}
+
+.btntwitter{
+	color: #30bae7;
+
+}
+.flexfooter{
+	padding-left: 260px;
+	padding-top: 35px;
+	display: flex;
+}
+
 /*responsive*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
